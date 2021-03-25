@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Tomorrow", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background: url("/oleni.jpg");
+  color: white;
+  background-size: cover;
+  position: relative;
+}
+.section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-image: url("/Page 1/regnum_picture_1571892459221970_normal.jpg");
+}
+
+.section p {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  color: aqua;
+}
+.section button {
+  width: 220px;
+  height: 205px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/2.png");
+  background-size: cover;
+  border-color: white;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+.inf {
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 12;
+  flex-direction: column;
+}
+.inf p {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+.support {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  z-index: 12;
+}
+.footer span {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 21px;
+}
+.footer p {
+  margin: 0;
+  font-size: 17px;
+}
+.black {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.email {
+  display: flex;
+  justify-content: space-evenly;
+}
+.email p {
+  display: flex;
+  align-items: center;
+}
